@@ -15,6 +15,14 @@ body {
 .navbutton {
   display: none;
 }
+.logo {
+  color: #2EE59D;
+  font: 800 1.4em sans-serif;
+  letter-spacing: -0.1em;
+  text-transform: none;
+  margin-top: 12px;
+  margin-left: 20px;
+}
 .nav {
   background: #ffffffe9;
   font: 800 1.2em sans-serif;
@@ -61,14 +69,16 @@ body {
   display: flex;
   margin: 0;
   top: 0;
-  height: 100px;
+  width: 100vw;
+  height: 80px;
   overflow: hidden;
   transition: .4s;
 }
 .nav ul {
-  top: 0;
+  position: absolute;
   height: 0;
-  margin-top: 200px;
+  margin-top: 100px;
+  margin-left: 5px;
   text-align: left;
   transition: .3s .1s;
 }
@@ -78,13 +88,12 @@ body {
   padding: 0;
 }
 .nav a {
-  padding: 10px 5px 10px 20px;
+  padding: 5px 5px 4px 10px;
   -webkit-tap-highlight-color: transparent;
   border: 3px solid transparent;
 }
 .nav a:hover {
   border: 3px solid #2EE59D;
-  transition: .3s ;
 }
 .nav .active a {
   border: none;
@@ -92,10 +101,11 @@ body {
 }
 .nav.open {
   height: 100vh;
+  background: #fff;
 }
 .nav ul.open {
   height: 100%;
-  margin-left: 150px;
+  margin-left: 30px;
 }
 .nav .active a.open {
   border: 3px solid #2EE59D;
@@ -108,30 +118,30 @@ body {
   -webkit-tap-highlight-color: transparent;
   width: 50px;
   height: 50px;
-  right: 25px;
-  top: 25px;
+  right: 20px;
+  top: 20px;
 }
 .navbutton span, 
 .navbutton span::after, 
 .navbutton span::before {
-  background: #111;
+  background: #2EE59D;
   display: block;
   position: absolute;
   width: 100%;
-  height: 10px;
-  top: 20px;
+  height: 8px;
+  top: 16px;
   transition: .3s;
 }
 .navbutton span::after {
   content: "";
-  top: -20px;
+  top: -16px;
 }
 .navbutton span::before {
   content: "";
-  top: 20px;
+  top: 16px;
 }
 .navbutton span.active {
-  background: #fff;
+  background: transparent;
 } 
 .navbutton span.active::after {
   content: "";
@@ -172,7 +182,7 @@ body {
 @media screen and (max-width: 600px) {
 .content {
   position: relative;
-  top: 100px;
+  top: 80px;
   padding: 6px;
   width: 400px;
   height: 100%;
