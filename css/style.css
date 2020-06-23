@@ -55,13 +55,13 @@ body {
   border: 1px solid #2EE59D;  
 }
 
-/* Mobile Adaptation */
+/* NAV Mobile Adaptation */
 @media screen and (max-width: 600px) {
 .nav {
   display: flex;
   margin: 0;
   top: 0;
-  height: 145px;
+  height: 100px;
   overflow: hidden;
   transition: .4s;
 }
@@ -106,10 +106,10 @@ body {
   position: absolute;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
-  width: 100px;
-  height: 75px;
-  right: 30px;
-  top: 35px;
+  width: 50px;
+  height: 50px;
+  right: 25px;
+  top: 25px;
 }
 .navbutton span, 
 .navbutton span::after, 
@@ -118,17 +118,17 @@ body {
   display: block;
   position: absolute;
   width: 100%;
-  height: 15px;
-  top: 30px;
+  height: 10px;
+  top: 20px;
   transition: .3s;
 }
 .navbutton span::after {
   content: "";
-  top: -30px;
+  top: -20px;
 }
 .navbutton span::before {
   content: "";
-  top: 30px;
+  top: 20px;
 }
 .navbutton span.active {
   background: #fff;
@@ -143,7 +143,7 @@ body {
   top: 0;
   transform: rotate(-45deg);
 }
-} /* END Mobile Adaptation */
+} /* END NAV Mobile Adaptation */
 
 
 /* Content */
@@ -167,6 +167,29 @@ body {
   height: 200px;
   margin: 2px;
 }
+
+/* Content Mobile Adaptation */
+@media screen and (max-width: 600px) {
+.content {
+  position: relative;
+  top: 100px;
+  padding: 6px;
+  width: 400px;
+  height: 100%;
+  text-align: center;
+}
+.card {
+  width: 306px;
+  height: 150px;
+  margin: 2px;
+}
+.scard {
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+}
+} /* END Content Mobile Adaptation */
+
 
 /* Flip */
 flip {
