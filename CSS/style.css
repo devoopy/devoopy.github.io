@@ -68,6 +68,7 @@ body {
 .logo {
   font: 800 50px sans-serif;
   letter-spacing: -0.1em;
+  top: 10px;
   left: 30px;
 }
 .nav {
