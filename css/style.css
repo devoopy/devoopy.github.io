@@ -18,17 +18,13 @@ body {
 .logo {
   position: absolute;
   color: #2EE59D;
-  font: 800 1.4em sans-serif;
-  letter-spacing: -0.1em;
+  font: 800 40px sans-serif;
+  letter-spacing: -0.13em;
   text-transform: none;
-  top: 12px;
-  left: 20px;
+  left: 50px;
 }
 .nav {
   background: #ffffffe9;
-  font: 800 1.2em sans-serif;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
   position: fixed;
   top: 0;
   left: 0;
@@ -39,6 +35,9 @@ body {
   box-shadow: 0 3px 6px #00000021;
 }
 .nav ul {
+  font: 800 1.2em sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
   padding: 0;
   text-align: center;
 }
@@ -67,9 +66,8 @@ body {
 /* NAV Mobile Adaptation */
 @media screen and (max-width: 600px) {
 .logo {
-  font: 800 2em sans-serif;
+  font: 800 50px sans-serif;
   letter-spacing: -0.1em;
-  top: 10px;
   left: 30px;
 }
 .nav {
@@ -82,9 +80,10 @@ body {
   transition: .4s;
 }
 .nav ul {
+  font: 800 2em sans-serif;
   position: absolute;
   height: 0;
-  margin-top: 80px;
+  margin-top: 100px;
   margin-left: 5px;
   text-align: left;
   transition: .3s .1s;
@@ -97,10 +96,10 @@ body {
 .nav a {
   padding: 5px 5px 4px 10px;
   -webkit-tap-highlight-color: transparent;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
 }
 .nav a:hover {
-  border: 3px solid #2EE59D;
+  border: 2px solid #2EE59D;
 }
 .nav .active a {
   border: none;
@@ -115,7 +114,7 @@ body {
   margin-left: 50px;
 }
 .nav .active a.open {
-  border: 3px solid #2EE59D;
+  border: 2px solid #2EE59D;
 }
 /* Button */
 .navbutton {
