@@ -66,6 +66,12 @@ body {
 
 /* NAV Mobile Adaptation */
 @media screen and (max-width: 600px) {
+.logo {
+  font: 800 2em sans-serif;
+  letter-spacing: -0.1em;
+  top: 10px;
+  left: 30px;
+}
 .nav {
   display: flex;
   margin: 0;
@@ -78,14 +84,14 @@ body {
 .nav ul {
   position: absolute;
   height: 0;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-left: 5px;
   text-align: left;
   transition: .3s .1s;
 }
 .nav li {
   display: block;
-  margin: 40px 0;
+  margin: 20px 0;
   padding: 0;
 }
 .nav a {
@@ -106,7 +112,7 @@ body {
 }
 .nav ul.open {
   height: 100%;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 .nav .active a.open {
   border: 3px solid #2EE59D;
