@@ -16,12 +16,13 @@ body {
   display: none;
 }
 .logo {
+  position: absolute;
   color: #2EE59D;
   font: 800 1.4em sans-serif;
   letter-spacing: -0.1em;
   text-transform: none;
-  margin-top: 12px;
-  margin-left: 20px;
+  top: 12px;
+  left: 20px;
 }
 .nav {
   background: #ffffffe9;
