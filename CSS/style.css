@@ -284,7 +284,7 @@ back a:hover {
 
 
 /* кнопка на фронте */ .demo3 {
-  position: absolute;
+  position: fixed;
   bottom: 15px;
   text-decoration: none;
   outline: none;
