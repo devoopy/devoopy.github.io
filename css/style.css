@@ -78,15 +78,22 @@ body {
   width: 100vw;
   height: 80px;
   overflow: hidden;
-  transition: .4s;
+}
+nav::after { /* test */
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 20px;
+  right: 20px;
+  transition: .3s;
 }
 .nav ul {
   font: 800 2em sans-serif;
   position: absolute;
   height: 0;
+  right: 0;
   margin-top: 100px;
-  margin-left: 5px;
-  text-align: left;
   transition: .3s .1s;
 }
 .nav li {
@@ -95,27 +102,52 @@ body {
   padding: 0;
 }
 .nav a {
-  padding: 5px 5px 4px 10px;
+  margin: 5px;
+  padding: 5px 10px;
+  float: right;
   -webkit-tap-highlight-color: transparent;
-  border: 2px solid transparent;
+  border: 3px solid transparent;
 }
 .nav a:hover {
-  border: 2px solid #2EE59D;
+  border-width: 3px;
 }
 .nav .active a {
-  border: none;
+  border-width: 0;
   transition: .3s .3s;
 }
 .nav.open {
+  background: transparent;
   height: 100vh;
+}
+nav.open::before { /* test */
+  content: "";
   background: #fff;
+  position: absolute;
+  width: 100vw;
+  height: 80px;
+  z-index: -1;
+  box-shadow: inherit
+}
+nav.open::after { /* test */
+  background: #12316b;
+  opacity: 0.9;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 110vw;
+  height: 110vw;
+  top: -15vw;
+  right: -20vw;
+  border-radius: 90vw;
+  z-index: -1;
 }
 .nav ul.open {
   height: 100%;
-  margin-left: 50px;
+  right: 10vw;
+  z-index: 2;
 }
 .nav .active a.open {
-  border: 2px solid #2EE59D;
+  border-right-width: 3px;
 }
 /* Button */
 .navbutton {
@@ -166,10 +198,10 @@ body {
 /* Content */
 .content {
   position: relative;
-  top: 60px;
-  padding: 6px;
   width:  960px;
   height: 100%;
+  top: 60px;
+  padding: 6px;
   text-align: center;
 }
 .card {
@@ -189,14 +221,12 @@ body {
 @media screen and (max-width: 600px) {
 .content {
   position: relative;
+  width: 400px;
   top: 80px;
   padding: 6px;
-  width: 400px;
-  height: 100%;
-  text-align: center;
 }
 .card {
-  width: 306px;
+  width: 308px;
   height: 150px;
   margin: 2px;
 }
