@@ -318,6 +318,7 @@ back a:hover {
 /* кнопка на фронте */ .demo3 {
   position: fixed;
   bottom: 15px;
+  left: 15px;
   text-decoration: none;
   outline: none;
   display: inline-block;
