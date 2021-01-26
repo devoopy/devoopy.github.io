@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Bookmarks Separator</title>
+  <link rel="icon" href="icons/separator.png" type="image/png">
+</head>
+<style>
+  html,
+  body {
+      width:100%;
+      height:100%;
+      margin:0px;
+      padding:0px;
+      font-family:Helvetica, Arial;
+  }
+  body {
+      background:#e6e6e6;
+  }
+  #outer {
+      position: absolute;
+      top: 50%;
+      left: 0px;
+      width: 100%;
+      height: 1px;
+      overflow: visible;
+  }
+  #inner {
+      width: 500px;
+      height: 480px;
+      margin-left: -250px;
+      position: absolute;
+      display:block;
+      vertical-align:middle;
+      font-size:29px;
+      color:#555555;
+      text-align:center;
+      text-shadow:0px 2px 1px #fff;
+      top: -240px;
+      left: 50%;
+  }
+  #inner a.me,
+  #inner a.me:active,
+  #inner a.me:visited,
+  #inner a.me:hover {
+      display:inline-block;
+      width:60px;
+      height:28px;
+
+      font-size: 0;
+      text-shadow: none;
+      color: #0089c9;
+
+      background: url("me.png") no-repeat;
+      background-size: 60px 28px;
+
+      vertical-align:middle;
+      text-decoration:none;
+  }
+  #inner b, #inner a {
+      font-weight:bold;
+      color:#5776ff;
+  }
+  p {
+      color:#9e9e9e;
+      font-size:13px;
+  }
+  p a {
+    text-decoration:none;
+  }
+  .twitter-share-button {
+      opacity:0.6;
+      margin-left:9px;
+  }
+  .twitter-share-button:hover {
+      opacity:1;
+  }
+</style>
+<body>
+<div id="outer">
+  <div id="inner">
+    <div id="alert-container"></div>
+    I'm a <b>vertical</b> separator.<br>
+    For a <b>horizontal</b> separator, click <a href="#">here</a>.
+    <p>
+      Made by <a href="https://twitter.com/" target="_blank">@es</a>
+      (on <a href="https://github.com/" target="_blank">GitHub</a>)
+      <a href="https://twitter.com/share" class="twitter-share-button" data-text="Do you want separators in your Chrome bookmarks? Check this out! #tweettip" data-count="horizontal" data-via="es" data-url="#" data-twitter-extracted-i161163695827060137="true">Tweet</a>
+    </p>
+  </div>
+</div>
+</body></html>
