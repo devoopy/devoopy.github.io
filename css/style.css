@@ -58,12 +58,12 @@ body {
 .nav a:hover {
   opacity: 0.9;
   border: 0px solid #4888ff;
-  border-bottom-width: 1px;
+  border-bottom-width: 2px;
 }
 .nav .active a {
   color: #2EE59D;
   border: 0px solid #2EE59D;
-  border-bottom-width: 1px;
+  border-bottom-width: 2px;
 }
 
 /* NAV Mobile Adaptation */
