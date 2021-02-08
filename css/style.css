@@ -47,7 +47,7 @@ body {
   padding: 0;
   list-style: none;
 }
-.nav a {
+.nav ul a {
   display: block;
   padding: 5px 12px;
   text-decoration: none;
@@ -55,12 +55,12 @@ body {
   line-height: 100%;
   border: solid 1px transparent;
 }
-.nav a:hover {
+.nav ul a:hover {
   opacity: 0.9;
   border: 0px solid #4888ff;
   border-bottom-width: 2px;
 }
-.nav .active a {
+.nav ul .active a {
   color: #2EE59D;
   border: 0px solid #2EE59D;
   border-bottom-width: 2px;
@@ -104,18 +104,18 @@ nav::after { /* test */
   margin: 20px 0;
   padding: 0;
 }
-.nav a {
+.nav ul a {
   margin: 5px;
   padding: 5px 10px;
   float: right;
   -webkit-tap-highlight-color: transparent;
 }
-.nav a:hover {
+.nav ul a:hover {
   opacity: 0.5;
   border: 0px solid #4888ff;
   border-right-width: 3px;
 }
-.nav .active a {
+.nav ul .active a {
   border-width: 0;
   transition: .3s .3s;
 }
@@ -150,7 +150,7 @@ nav.open::after { /* test */
   right: 10vw;
   z-index: 2;
 }
-.nav .active a.open {
+.nav ul .active a.open {
   border-right-width: 3px;
 }
 /* Button */
