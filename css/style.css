@@ -56,11 +56,13 @@ body {
   border: solid 1px transparent;
 }
 .nav a:hover {
-  border: 1px solid #2EE59D;
+  border: 0px solid #4888ff;
+  border-right-width: 1px;
 }
 .nav .active a {
   color: #2EE59D;
-  border: 1px solid #2EE59D;  
+  border: 0px solid #2EE59D;
+  border-right-width: 1px;
 }
 
 /* NAV Mobile Adaptation */
