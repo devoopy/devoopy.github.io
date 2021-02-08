@@ -16,6 +16,7 @@ body {
   display: none;
 }
 .logo, .logo a {
+  text-decoration: none;
   position: absolute;
   color: #2EE59D;
   font: 800 40px sans-serif;
