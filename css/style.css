@@ -103,7 +103,7 @@ nav::after { /* test */
 }
 .nav a {
   margin: 5px;
-  padding: 5px 5px;
+  padding: 5px 10px;
   float: right;
   -webkit-tap-highlight-color: transparent;
 }
