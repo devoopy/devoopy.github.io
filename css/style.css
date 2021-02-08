@@ -15,7 +15,7 @@ body {
 .navbutton {
   display: none;
 }
-.logo {
+.logo, .logo a {
   position: absolute;
   color: #2EE59D;
   font: 800 40px sans-serif;
