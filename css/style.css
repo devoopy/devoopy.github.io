@@ -57,7 +57,7 @@ body {
   text-decoration: none;
   color: #4888ff;
   line-height: 100%;
-  border: solid 1px transparent;
+  border: solid 2px transparent;
 }
 .nav li > a:hover {
   opacity: 0.5;
@@ -112,6 +112,7 @@ nav::after { /* test */
   margin: 5px;
   padding: 5px 10px;
   float: right;
+  border: solid 3px transparent;
   -webkit-tap-highlight-color: transparent;
 }
 .nav li > a:hover {
