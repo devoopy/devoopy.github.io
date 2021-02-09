@@ -60,7 +60,7 @@ body {
   border: solid 1px transparent;
 }
 .nav li > a:hover {
-  opacity: 0.9;
+  opacity: 0.5;
   border: 0px solid #4888ff;
   border-bottom-width: 2px;
 }
@@ -115,8 +115,6 @@ nav::after { /* test */
   -webkit-tap-highlight-color: transparent;
 }
 .nav li > a:hover {
-  opacity: 0.5;
-  border: 0px solid #4888ff;
   border-right-width: 3px;
 }
 .nav .active a {
