@@ -15,14 +15,17 @@ body {
 .navbutton {
   display: none;
 }
-.logo, .logo a {
-  text-decoration: none;
+.logo {
   position: absolute;
   color: #2EE59D;
   font: 800 40px sans-serif;
   letter-spacing: -0.13em;
   text-transform: none;
   left: 50px;
+}
+.logo a {
+  text-decoration: none;
+  color: inherit;
 }
 .nav {
   background: #ffffffe9;
@@ -48,7 +51,7 @@ body {
   padding: 0;
   list-style: none;
 }
-.nav ul + a {
+.nav li > a {
   display: block;
   padding: 5px 12px;
   text-decoration: none;
@@ -56,12 +59,12 @@ body {
   line-height: 100%;
   border: solid 1px transparent;
 }
-.nav ul+a:hover {
+.nav li > a:hover {
   opacity: 0.9;
   border: 0px solid #4888ff;
   border-bottom-width: 2px;
 }
-.nav ul+.active a {
+.nav .active a {
   color: #2EE59D;
   border: 0px solid #2EE59D;
   border-bottom-width: 2px;
@@ -105,18 +108,18 @@ nav::after { /* test */
   margin: 20px 0;
   padding: 0;
 }
-.nav ul+a {
+.nav li > a {
   margin: 5px;
   padding: 5px 10px;
   float: right;
   -webkit-tap-highlight-color: transparent;
 }
-.nav ul+a:hover {
+.nav li > a:hover {
   opacity: 0.5;
   border: 0px solid #4888ff;
   border-right-width: 3px;
 }
-.nav ul+.active a {
+.nav .active a {
   border-width: 0;
   transition: .3s .3s;
 }
@@ -131,7 +134,7 @@ nav.open::before { /* test */
   width: 100vw;
   height: 80px;
   z-index: -1;
-  box-shadow: inherit
+  box-shadow: inherit;
 }
 nav.open::after { /* test */
   background: #12316b;
@@ -151,7 +154,7 @@ nav.open::after { /* test */
   right: 10vw;
   z-index: 2;
 }
-.nav ul+.active a.open {
+.nav .active a.open {
   border-right-width: 3px;
 }
 /* Button */
@@ -250,7 +253,8 @@ flip {
   height: 100%;
   perspective: 1000px;
 }
-front, back {
+front,
+back {
   color: white;
   font: 300 1em sans-serif;
   background-color: Wheat;
