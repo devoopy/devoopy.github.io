@@ -1,4 +1,2 @@
 [![DEVoopy](https://devoopy.github.io/images/DEVoopy.svg)](https://devoopy.github.io)
 <p align="center"><a href="https://devoopy.github.io"><img src="https://devoopy.github.io/images/DEVoopy.svg"></a></p>
-<a href="https://devoopy.github.io"><img style="display:block; margin: 0 auto;" src="https://devoopy.github.io/images/DEVoopy.svg"/></a>
-<img src="https://devoopy.github.io/images/DEVoopy.svg" style="display:block;float:none;margin-left:auto;margin-right:auto;width:60%"> 
