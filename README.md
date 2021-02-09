@@ -1,2 +1,2 @@
-[![DEVoopy](https://img.jpg)](https://devoopy.github.io)
+[![DEVoopy](https://devoopy.github.io/images/DEVoopy.svg)](https://devoopy.github.io)
 [**DEVoopy**](https://devoopy.github.io)
