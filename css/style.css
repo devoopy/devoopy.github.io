@@ -115,6 +115,7 @@ nav::after { /* test */
   -webkit-tap-highlight-color: transparent;
 }
 .nav li > a:hover {
+  border-width: 0;
   border-right-width: 3px;
 }
 .nav .active a {
