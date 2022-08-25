@@ -1,0 +1,18 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50">
+<style type="text/css">
+	.st0{fill:transparent;}
+	.st0{animation: anim 1s ease-in infinite;animation-direction: alternate-reverse;}
+	@keyframes anim {
+    from {
+      fill: transparent;
+    }
+    to {
+      fill: #FFFFFF;
+    }
+	}
+</style>
+<path class="st0" d="M0.1,12.5c4.2,4.2,8.3,8.3,12.5,12.5c-4.2,0-8.3,0-12.5,0c0,8.3,0,16.7,0,25c8.3,0,16.7,0,25,0
+	c1.9,0,10.2-0.3,17.1-6.9c1.2-1.1,7.9-7.7,7.9-18.1c0-11-7.5-17.8-8.7-18.8C34.8,0.4,27.3,0,25.1,0c-8.3,0-16.7,0-25,0
+	c4.2,4.2,8.3,8.3,12.5,12.5c4.2,0,8.3,0,12.5,0c6.9,0,12.5,5.7,12.5,12.5c0,6.9-5.7,12.5-12.5,12.5c-4.2,0-8.3,0-12.5,0
+	c0-4.2,0-8.3,0-12.5c3.9,0,8,0,11.9,0c-3.9-4.2-8-8.3-11.9-12.5C8.4,12.5,4.3,12.5,0.1,12.5z"/>
+</svg>

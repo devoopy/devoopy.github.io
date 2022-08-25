@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devoopy - Portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#152a8e">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Devoopy">
+    <meta name="application-name" content="Devoopy">
+    <meta name="msapplication-TileColor" content="#152a8e">
+    <meta name="msapplication-config" content="icons/browserconfig.xml">
+    <meta name="theme-color" content="#152a8e">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="js-loader" class="loader">
+      <object
+        type="image/svg+xml"
+        data="images/loader.svg"
+        class="svg-object"
+        title="loading icon"
+      ></object>
+    </div>
+
+    <div class="logo">Devoopy</div>
+
+    <ul id="js-menu" class="menu">
+      <li><a href="#main"></a></li>
+      <li><a href="#work"></a></li>
+      <li><a href="#about"></a></li>
+      <li><a href="#contact"></a></li>
+    </ul>
+
+    <div id="js-fullpage" class="fullpage">
+      <div id="main" class="section">
+        <p class="fullpage__scroll-down">Scroll Down</p>
+        <div class="section__slide">
+          <div class="title">
+            <h1 class="title__head _a_left-right">Моё портфолио</h1>
+            <h2 class="title__text _a_left-right _a_delay-01">
+              Начинающий Веб-разработчик
+            </h2>
+          </div>
+          <object
+            type="image/svg+xml"
+            data="images/web-development-programmer.svg"
+            class="svg-object svg-object--main _a_opacity"
+            title="Developer vector created by upklyak - freepik.com"
+            copyright="cc-by upklyak - freepik.com"
+          ></object>
+        </div>
+      </div>
+
+      <div id="work" class="section">
+        <div class="section__slide">
+          <div id="slider" class="slider">
+            <div class="slider__items">
+              <div class="slider__item current">
+                <div class="title _blend-difference">
+                  <h1 class="title__head _a_left-right">New Providence</h1>
+                  <h2 class="title__text _a_left-right _a_delay-01">
+                    Лендинг, свёрстанный с макета
+                  </h2>
+                  <a
+                    href="work/new-providence-by-craftowork"
+                    class="anchor-button _a_opacity _a_delay-01"
+                  >
+                    Пример
+                  </a>
+                </div>
+                <a
+                  href="work/New-Providence-by-Craftowork"
+                  class="image image--work"
+                ></a>
+              </div>
+              <div class="slider__item">
+                <div class="title _blend-difference">
+                  <h1 class="title__head _a_left-right">Snake Game</h1>
+                  <h2 class="title__text _a_left-right _a_delay-01">
+                    Игра "Змейка", работающая на React
+                  </h2>
+                  <a
+                    href="https://github.com/devoopy/snake-game"
+                    class="anchor-button _a_opacity _a_delay-01"
+                  >
+                    GitHub
+                  </a>
+                </div>
+                <a href="https://github.com/devoopy/snake-game" class="image image--snake"></a>
+              </div>
+              <div class="slider__item">
+                <div class="title _blend-difference">
+                  <h1 class="title__head _a_left-right">Tic-Tac-Toe</h1>
+                  <h2 class="title__text _a_left-right _a_delay-01">
+                    Онлайн "Крестики-нолики" с использованием React и Socket.IO
+                  </h2>
+                  <a 
+                    href="https://github.com/devoopy/xo-game"
+                    class="anchor-button _a_opacity _a_delay-01"
+                  >
+                    GitHub
+                  </a>
+                </div>
+                <a href="https://github.com/devoopy/xo-game" class="image image--xo"></a>
+              </div>
+              <div class="slider__item">
+                <div class="title _blend-difference">
+                  <h1 class="title__head _a_left-right">Messenger</h1>
+                  <h2 class="title__text _a_left-right _a_delay-01">
+                    Мессенджер на PHP с собственным дизайн-решением
+                  </h2>
+                  <a
+                    href="https://devoopy.000webhostapp.com"
+                    class="anchor-button _a_opacity _a_delay-01"
+                  >
+                    Сайт
+                  </a>
+                </div>
+                <a href="https://devoopy.000webhostapp.com" class="image image--messenger"></a>
+              </div>
+            </div>
+
+            <div class="slider__points">
+              <button class="slider__point current" data-page="0"></button>
+              <button class="slider__point" data-page="1"></button>
+              <button class="slider__point" data-page="2"></button>
+              <button class="slider__point" data-page="3"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="about" class="section">
+        <div class="section__slide">
+          <div class="title title--about">
+            <h1 class="title__head _a_left-right">Обо мне</h1>
+            <h2 class="title__text _a_left-right _a_delay-01">
+              <p>
+                
+              </p>
+              <p>Мои навыки:</p>
+              <ul>
+                <li>Хорошие знания HTML и CSS</li>
+                <li>Знания JavaScript</li>
+                <li>Адаптивная и кроссбраузерная вёрстка</li>
+                <li>Опыт работы с React</li>
+                <li>Работа с Webpack, SASS, а также Git</li>
+              </ul>
+            </h2>
+          </div>
+          <div class="skill-box _a_opacity _a_delay-01">
+            <div class="skill-item sk-html">
+              <div class="skill-item__text">
+                <p class="skill-item__percent">90</p>
+                <p class="skill-item__label">HTML</p>
+              </div>
+              <svg class="donut" width="100%" height="100%" viewBox="0 0 42 42">
+                <circle
+                  class="donut-ring"
+                  cx="21"
+                  cy="21"
+                  r="15.91549430918954"
+                  fill="transparent"
+                  stroke="#fff"
+                  stroke-width="2.8"
+                ></circle>
+                <circle
+                  class="donut-segment"
+                  cx="21"
+                  cy="21"
+                  r="15.91549430918954"
+                  fill="transparent"
+                  stroke="#000"
+                  stroke-width="3"
+                  stroke-dashoffset="25"
+                  stroke-dasharray="0 100"
+                ></circle>
+              </svg>
+            </div>
+            <div class="skill-item sk-css">
+              <div class="skill-item__text">
+                <p class="skill-item__percent">75</p>
+                <p class="skill-item__label">CSS</p>
+              </div>
+              <svg class="donut" width="100%" height="100%" viewBox="0 0 42 42">
+                <circle
+                  class="donut-ring"
+                  cx="21"
+                  cy="21"
+                  r="15.91549430918954"
+                  fill="transparent"
+                  stroke="#fff"
+                  stroke-width="2.8"
+                ></circle>
+                <circle
+                  class="donut-segment"
+                  cx="21"
+                  cy="21"
+                  r="15.91549430918954"
+                  fill="transparent"
+                  stroke="#000"
+                  stroke-width="3"
+                  stroke-dashoffset="25"
+                  stroke-dasharray="0 100"
+                ></circle>
+              </svg>
+            </div>
+            <div class="skill-item sk-javascript">
+              <div class="skill-item__text">
+                <p class="skill-item__percent">60</p>
+                <p class="skill-item__label">JavaScript</p>
+              </div>
+              <svg class="donut" width="100%" height="100%" viewBox="0 0 42 42">
+                <circle
+                  class="donut-ring"
+                  cx="21"
+                  cy="21"
+                  r="15.91549430918954"
+                  fill="transparent"
+                  stroke="#fff"
+                  stroke-width="2.8"
+                ></circle>
+                <circle
+                  class="donut-segment"
+                  cx="21"
+                  cy="21"
+                  r="15.91549430918954"
+                  fill="transparent"
+                  stroke="#000"
+                  stroke-width="3"
+                  stroke-dashoffset="25"
+                  stroke-dasharray="0 100"
+                ></circle>
+              </svg>
+            </div>
+            <div class="skill-item sk-php">
+              <div class="skill-item__text">
+                <p class="skill-item__percent">50</p>
+                <p class="skill-item__label">PHP</p>
+              </div>
+              <svg class="donut" width="100%" height="100%" viewBox="0 0 42 42">
+                <circle
+                  class="donut-ring"
+                  cx="21"
+                  cy="21"
+                  r="15.91549430918954"
+                  fill="transparent"
+                  stroke="#fff"
+                  stroke-width="2.8"
+                ></circle>
+                <circle
+                  class="donut-segment"
+                  cx="21"
+                  cy="21"
+                  r="15.91549430918954"
+                  fill="transparent"
+                  stroke="#000"
+                  stroke-width="3"
+                  stroke-dashoffset="25"
+                  stroke-dasharray="0 100"
+                ></circle>
+              </svg>
+            </div>
+            <div class="skill-item sk-photoshop">
+              <div class="skill-item__text">
+                <p class="skill-item__percent">80</p>
+                <p class="skill-item__label">Photoshop</p>
+              </div>
+              <svg class="donut" width="100%" height="100%" viewBox="0 0 42 42">
+                <circle
+                  class="donut-ring"
+                  cx="21"
+                  cy="21"
+                  r="15.91549430918954"
+                  fill="transparent"
+                  stroke="#fff"
+                  stroke-width="2.8"
+                ></circle>
+                <circle
+                  class="donut-segment"
+                  cx="21"
+                  cy="21"
+                  r="15.91549430918954"
+                  fill="transparent"
+                  stroke="#000"
+                  stroke-width="3"
+                  stroke-dashoffset="25"
+                  stroke-dasharray="0 100"
+                ></circle>
+              </svg>
+            </div>
+            <div class="skill-item sk-illustrator">
+              <div class="skill-item__text">
+                <p class="skill-item__percent">80</p>
+                <p class="skill-item__label">Illustrator</p>
+              </div>
+              <svg class="donut" width="100%" height="100%" viewBox="0 0 42 42">
+                <circle
+                  class="donut-ring"
+                  cx="21"
+                  cy="21"
+                  r="15.91549430918954"
+                  fill="transparent"
+                  stroke="#fff"
+                  stroke-width="2.8"
+                ></circle>
+                <circle
+                  class="donut-segment"
+                  cx="21"
+                  cy="21"
+                  r="15.91549430918954"
+                  fill="transparent"
+                  stroke="#000"
+                  stroke-width="3"
+                  stroke-dashoffset="25"
+                  stroke-dasharray="0 100"
+                ></circle>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact" class="section">
+        <div class="section__slide">
+          <div class="title">
+            <h1 class="title__head _a_left-right">Связаться</h1>
+            <h2 class="title__text contact _a_left-right _a_delay-01">
+              <a
+                href="mailto:devoopy@gmail.com"
+                class="contact__mail"
+              >
+                devoopy@gmail.com
+              </a>
+              <a
+                href="https://telegram.me/devoopy"
+                class="contact__telegram"
+              >
+                Telegram
+              </a>
+            </h2>
+          </div>
+          <object
+            type="image/svg+xml"
+            data="images/flat-cms.svg"
+            class="svg-object svg-object--contact"
+            title="Vector created by freepik - freepik.com"
+            copyright="cc-by freepik.com"
+          ></object>
+        </div>
+      </div>
+    </div>
+
+    <div id="js-background" class="background gradient">
+      <div id="js-cursor" class="cursor"></div>
+      <div class="dots"></div>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2021 - Devoopy</p>
+      <a href="https://ru.freepik.com">Vector illustrations created by freepik - freepik.com</a>
+    </footer>
+
+    <script src="js/viewport.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>
